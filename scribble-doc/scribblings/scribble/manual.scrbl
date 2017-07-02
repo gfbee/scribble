@@ -843,7 +843,7 @@ Produces a sequence of flow elements (encapsulated in a
 @racket[splice]) to document a procedure named @racket[id]. Nesting
 @racket[prototype]s corresponds to a curried function, as in
 @racket[define]. Unless @racket[link-target?-expr] is specified
-and produces @racket[#f], the @racket[id] is indexed, and it also registered so
+and produces @racket[#f], the @racket[id] is indexed, and is also registered so
 that @racket[racket]-typeset uses of the identifier (with the same
 for-label binding) are hyperlinked to this documentation.
 
